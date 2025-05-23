@@ -9,4 +9,13 @@ An AI-powered chatbot designed to promote emotional well-being by detecting user
 ## 📁 Dataset
 - [GoEmotions by Google](https://github.com/google-research/goemotions)  
 A dataset of 200k Reddit comments labeled with 28 emotion categories.
+## 📥 Model Download
+
+To download the **Mistral-7B-Instruct-v0.1.Q4_K_M.gguf** model used in this project, run:
+
+```bash
+curl -LO https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+```
+This model can be run locally using [llama.cpp](https://github.com/ggerganov/llama.cpp) or other GGUF-compatible backends.
+
 
